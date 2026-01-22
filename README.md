@@ -1,116 +1,104 @@
-📊 Student Feedback Analysis Project
-📌 Project Overview
+# 📊 Student Feedback Analysis Project
+
+## 📌 Project Overview
 
 This project analyzes student feedback survey data to understand overall satisfaction, identify strengths and weaknesses in teaching and course structure, and provide data-driven insights for improvement.
 
 Using Python and data analysis techniques, the project performs data cleaning, exploratory data analysis (EDA), satisfaction scoring, and visualization of feedback trends.
 
-📂 Dataset
+---
+
+## 📂 Dataset
 
 The dataset used in this project contains student feedback ratings across multiple evaluation criteria such as:
 
-Subject knowledge of the instructor
-
-Clarity of explanation
-
-Use of presentations
-
-Assignment difficulty
-
-Doubt-solving ability
-
-Course structure
-
-Support provided to students
-
-Course recommendation relevance
+- Subject knowledge of the instructor  
+- Clarity of explanation  
+- Use of presentations  
+- Assignment difficulty  
+- Doubt-solving ability  
+- Course structure  
+- Support provided to students  
+- Course recommendation relevance  
 
 Each row represents feedback from one student.
 
-🛠️ Tools & Technologies
+---
 
-Python 🐍
+## 🛠️ Tools & Technologies
 
-Pandas
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Google Colab  
+- GitHub  
 
-NumPy
+---
 
-Matplotlib
+## 🔍 Steps Performed
 
-Seaborn
+### 1️⃣ Data Loading
 
-Google Colab
+- Imported the dataset using Pandas.  
+- Inspected the data structure and columns.  
 
-GitHub
+### 2️⃣ Data Cleaning
 
-🔍 Steps Performed
-1️⃣ Data Loading
+- Removed unnecessary columns (e.g., index columns).  
+- Converted rating columns to numeric values.  
+- Handled missing values.  
+- Standardized column names.  
 
-Imported the dataset using Pandas.
+### 3️⃣ Exploratory Data Analysis (EDA)
 
-Inspected the data structure and columns.
+- Generated descriptive statistics.  
+- Analyzed distribution of ratings.  
+- Visualized overall satisfaction using histograms.  
 
-2️⃣ Data Cleaning
+### 4️⃣ Satisfaction Analysis
 
-Removed unnecessary columns (e.g., index columns).
+- Calculated overall satisfaction score for each student.  
+- Computed average rating for each feedback question.  
+- Visualized average ratings using bar charts.  
 
-Converted rating columns to numeric values.
+### 5️⃣ Sentiment Analysis
 
-Handled missing values.
+- Categorized students into Positive, Neutral, and Negative satisfaction groups based on their overall ratings.  
+- Visualized sentiment distribution.  
 
-Standardized column names.
+### 6️⃣ Insights & Recommendations
 
-3️⃣ Exploratory Data Analysis (EDA)
+- Identified strong and weak areas in teaching and course design.  
+- Suggested actionable improvements based on data.  
 
-Generated descriptive statistics.
+---
 
-Analyzed distribution of ratings.
+## 📈 Key Insights
 
-Visualized overall satisfaction using histograms.
+- Most students provided positive feedback overall.  
+- Subject knowledge and explanation clarity received higher ratings.  
+- Assignment difficulty and course structure showed relatively lower ratings.  
+- There is scope to improve engagement and course organization.  
 
-4️⃣ Satisfaction Analysis
+---
 
-Calculated overall satisfaction score for each student.
-
-Computed average rating for each feedback question.
-
-Visualized average ratings using bar charts.
-
-5️⃣ Sentiment Analysis
-
-Categorized students into Positive, Neutral, and Negative satisfaction groups based on their overall ratings.
-
-Visualized sentiment distribution.
-
-6️⃣ Insights & Recommendations
-
-Identified strong and weak areas in teaching and course design.
-
-Suggested actionable improvements based on data.
-
-📈 Key Insights
-
-Most students provided positive feedback overall.
-
-Subject knowledge and explanation clarity received higher ratings.
-
-Assignment difficulty and course structure showed relatively lower ratings.
-
-There is scope to improve engagement and course organization.
-
-✅ Conclusion
+## ✅ Conclusion
 
 This project demonstrates how data analysis can be used to interpret student feedback and support data-driven decision-making in educational environments. The insights obtained can help institutions improve teaching quality and student satisfaction.
 
-🚀 Future Improvements
+---
 
-Add advanced sentiment analysis using NLP on textual feedback.
+## 🚀 Future Improvements
 
-Build an interactive dashboard using Power BI / Tableau / Streamlit.
+- Add advanced sentiment analysis using NLP on textual feedback.  
+- Build an interactive dashboard using Power BI / Tableau / Streamlit.  
+- Compare feedback across different courses or semesters.  
 
-Compare feedback across different courses or semesters.
+---
 
-👤 Author
+## 👤 Author
 
-Vedesh Vuppalapati
+**Haneesh Kolisetty**  
 Aspiring Data Scientist | Python | Data Analysis
